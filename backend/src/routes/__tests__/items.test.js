@@ -26,7 +26,7 @@ describe("Items Routes", () => {
       const res = await request(app).get("/api/items");
 
       expect(res.statusCode).toBe(200);
-      expect(res.body).toEqual(mockItems);
+      expect(res.body.items).toEqual(mockItems);
     });
 
     it("handles read error", async () => {
