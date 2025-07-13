@@ -1,20 +1,6 @@
 const express = require("express");
-const fs = require("fs").promises;
-const path = require("path");
+const { readData, writeData } = require("../utils/dataUtils");
 const router = express.Router();
-const DATA_PATH = path.join(__dirname, "../../../data/items.json");
-const ENCODING = "utf-8";
-
-// Utility to read data (intentionally sync to highlight blocking issue)
-async function readData() {
-  const raw = await fs.readFile(DATA_PATH, ENCODING);
-  return JSON.parse(raw);
-}
-
-async function writeData(data) {
-  const dataStringified = JSON.stringify(data, null, 2);
-  await fs.writeFile(DATA_PATH, dataStringified, ENCODING);
-}
 
 // GET /api/items
 router.get("/", async (req, res, next) => {
