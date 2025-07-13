@@ -45,12 +45,14 @@ router.get("/:id", async (req, res, next) => {
 // POST /api/items
 router.post("/", async (req, res, next) => {
   try {
-    // TODO: Validate payload (intentional omission)
     const item = req.body;
+    validateItemInfo(item);
+
     const data = await readData();
     item.id = Date.now();
     const newData = [...data, item];
     await writeData(newData);
+
     res.status(201).json(item);
   } catch (err) {
     next(err);
@@ -58,3 +60,12 @@ router.post("/", async (req, res, next) => {
 });
 
 module.exports = router;
+
+const validateItemInfo = (item) => {
+  // Simple Validation - could be more profound.
+  if (!item.name || !item.category || !item.price) {
+    const err = new Error("Missing item information", 400);
+    err.status = 400;
+    throw err;
+  }
+};
