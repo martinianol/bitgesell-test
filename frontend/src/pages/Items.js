@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useData } from "../state/DataContext";
 import { Link } from "react-router-dom";
+import { FixedSizeList as List } from "react-window";
 
 function Items() {
   const { items, fetchItems, setItems, setTotal, total } = useData();
   const [page, setPage] = useState(0);
   const [search, setSearch] = useState("");
-  const limit = 10;
+  const limit = 100;
 
   useEffect(() => {
     let active = true;
@@ -36,6 +37,15 @@ function Items() {
 
   const totalPages = Math.ceil(total / limit);
 
+  const Row = ({ index, style }) => {
+    const item = items[index];
+    return (
+      <div style={style} key={item.id}>
+        <Link to={`/items/${item.id}`}>{item.name}</Link>
+      </div>
+    );
+  };
+
   return (
     <div>
       <input
@@ -51,13 +61,9 @@ function Items() {
       {!items.length ? (
         <p>Loading...</p>
       ) : (
-        <ul>
-          {items.map((item) => (
-            <li key={item.id}>
-              <Link to={"/items/" + item.id}>{item.name}</Link>
-            </li>
-          ))}
-        </ul>
+        <List height={600} itemCount={items.length} itemSize={40} width="100%">
+          {Row}
+        </List>
       )}
 
       <div>

@@ -1,7 +1,3002 @@
 [
-  { "id": 1, "name": "Laptop Pro", "category": "Electronics", "price": 2499 },
-  { "id": 2, "name": "Noise Cancelling Headphones", "category": "Electronics", "price": 399 },
-  { "id": 3, "name": "Ultra‑Wide Monitor", "category": "Electronics", "price": 999 },
-  { "id": 4, "name": "Ergonomic Chair", "category": "Furniture", "price": 799 },
-  { "id": 5, "name": "Standing Desk", "category": "Furniture", "price": 1199 }
+  {
+    "id": 1,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 704
+  },
+  {
+    "id": 2,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 1125
+  },
+  {
+    "id": 3,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 2502
+  },
+  {
+    "id": 4,
+    "name": "Building Blocks",
+    "category": "Toys",
+    "price": 1637
+  },
+  {
+    "id": 5,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price": 2864
+  },
+  {
+    "id": 6,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 795
+  },
+  {
+    "id": 7,
+    "name": "Dishwasher",
+    "category": "Home Appliances",
+    "price": 1375
+  },
+  {
+    "id": 8,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 2923
+  },
+  {
+    "id": 9,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 1003
+  },
+  {
+    "id": 10,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 1340
+  },
+  {
+    "id": 11,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 2031
+  },
+  {
+    "id": 12,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 1318
+  },
+  {
+    "id": 13,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 2906
+  },
+  {
+    "id": 14,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 709
+  },
+  {
+    "id": 15,
+    "name": "Puzzle Set",
+    "category": "Toys",
+    "price": 1207
+  },
+  {
+    "id": 16,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 1344
+  },
+  {
+    "id": 17,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 2198
+  },
+  {
+    "id": 18,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 1162
+  },
+  {
+    "id": 19,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 112
+  },
+  {
+    "id": 20,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 434
+  },
+  {
+    "id": 21,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 2939
+  },
+  {
+    "id": 22,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 611
+  },
+  {
+    "id": 23,
+    "name": "Bookshelf",
+    "category": "Furniture",
+    "price": 1030
+  },
+  {
+    "id": 24,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 2043
+  },
+  {
+    "id": 25,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 1688
+  },
+  {
+    "id": 26,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 982
+  },
+  {
+    "id": 27,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 911
+  },
+  {
+    "id": 28,
+    "name": "Building Blocks",
+    "category": "Toys",
+    "price": 898
+  },
+  {
+    "id": 29,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 848
+  },
+  {
+    "id": 30,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 631
+  },
+  {
+    "id": 31,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 1293
+  },
+  {
+    "id": 32,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 1074
+  },
+  {
+    "id": 33,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 2414
+  },
+  {
+    "id": 34,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 495
+  },
+  {
+    "id": 35,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 2821
+  },
+  {
+    "id": 36,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 2899
+  },
+  {
+    "id": 37,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 2214
+  },
+  {
+    "id": 38,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 1919
+  },
+  {
+    "id": 39,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 1085
+  },
+  {
+    "id": 40,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 1736
+  },
+  {
+    "id": 41,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 2635
+  },
+  {
+    "id": 42,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 1085
+  },
+  {
+    "id": 43,
+    "name": "Puzzle Set",
+    "category": "Toys",
+    "price": 143
+  },
+  {
+    "id": 44,
+    "name": "Water Purifier",
+    "category": "Home Appliances",
+    "price": 2604
+  },
+  {
+    "id": 45,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 843
+  },
+  {
+    "id": 46,
+    "name": "Building Blocks",
+    "category": "Toys",
+    "price": 2149
+  },
+  {
+    "id": 47,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 2413
+  },
+  {
+    "id": 48,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 1239
+  },
+  {
+    "id": 49,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 2679
+  },
+  {
+    "id": 50,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 2996
+  },
+  {
+    "id": 51,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 1831
+  },
+  {
+    "id": 52,
+    "name": "Sofa Bed",
+    "category": "Furniture",
+    "price": 2850
+  },
+  {
+    "id": 53,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 2433
+  },
+  {
+    "id": 54,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 2863
+  },
+  {
+    "id": 55,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 648
+  },
+  {
+    "id": 56,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 445
+  },
+  {
+    "id": 57,
+    "name": "Dishwasher",
+    "category": "Home Appliances",
+    "price": 1449
+  },
+  {
+    "id": 58,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 260
+  },
+  {
+    "id": 59,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 1006
+  },
+  {
+    "id": 60,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 2741
+  },
+  {
+    "id": 61,
+    "name": "Air Conditioner",
+    "category": "Home Appliances",
+    "price": 2498
+  },
+  {
+    "id": 62,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price": 733
+  },
+  {
+    "id": 63,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 1933
+  },
+  {
+    "id": 64,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 1087
+  },
+  {
+    "id": 65,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 2203
+  },
+  {
+    "id": 66,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 1023
+  },
+  {
+    "id": 67,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 2406
+  },
+  {
+    "id": 68,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 2466
+  },
+  {
+    "id": 69,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 1753
+  },
+  {
+    "id": 70,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 1288
+  },
+  {
+    "id": 71,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 1453
+  },
+  {
+    "id": 72,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 410
+  },
+  {
+    "id": 73,
+    "name": "Sofa Bed",
+    "category": "Furniture",
+    "price": 692
+  },
+  {
+    "id": 74,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 879
+  },
+  {
+    "id": 75,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 388
+  },
+  {
+    "id": 76,
+    "name": "Building Blocks",
+    "category": "Toys",
+    "price": 2758
+  },
+  {
+    "id": 77,
+    "name": "Air Conditioner",
+    "category": "Home Appliances",
+    "price": 1996
+  },
+  {
+    "id": 78,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 2352
+  },
+  {
+    "id": 79,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 1447
+  },
+  {
+    "id": 80,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 1369
+  },
+  {
+    "id": 81,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 182
+  },
+  {
+    "id": 82,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 1332
+  },
+  {
+    "id": 83,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 289
+  },
+  {
+    "id": 84,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 907
+  },
+  {
+    "id": 85,
+    "name": "Sofa Bed",
+    "category": "Furniture",
+    "price": 1751
+  },
+  {
+    "id": 86,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 1225
+  },
+  {
+    "id": 87,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 287
+  },
+  {
+    "id": 88,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 2672
+  },
+  {
+    "id": 89,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 54
+  },
+  {
+    "id": 90,
+    "name": "Puzzle Set",
+    "category": "Toys",
+    "price": 389
+  },
+  {
+    "id": 91,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 2274
+  },
+  {
+    "id": 92,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 2846
+  },
+  {
+    "id": 93,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 1899
+  },
+  {
+    "id": 94,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 674
+  },
+  {
+    "id": 95,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 1280
+  },
+  {
+    "id": 96,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 205
+  },
+  {
+    "id": 97,
+    "name": "Dishwasher",
+    "category": "Home Appliances",
+    "price": 1361
+  },
+  {
+    "id": 98,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 1088
+  },
+  {
+    "id": 99,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 601
+  },
+  {
+    "id": 100,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 2886
+  },
+  {
+    "id": 101,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 915
+  },
+  {
+    "id": 102,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 886
+  },
+  {
+    "id": 103,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 408
+  },
+  {
+    "id": 104,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 499
+  },
+  {
+    "id": 105,
+    "name": "Building Blocks",
+    "category": "Toys",
+    "price": 2144
+  },
+  {
+    "id": 106,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 464
+  },
+  {
+    "id": 107,
+    "name": "Water Purifier",
+    "category": "Home Appliances",
+    "price": 612
+  },
+  {
+    "id": 108,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 2493
+  },
+  {
+    "id": 109,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 1191
+  },
+  {
+    "id": 110,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 1572
+  },
+  {
+    "id": 111,
+    "name": "Bookshelf",
+    "category": "Furniture",
+    "price": 1931
+  },
+  {
+    "id": 112,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 1909
+  },
+  {
+    "id": 113,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 1464
+  },
+  {
+    "id": 114,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 2593
+  },
+  {
+    "id": 115,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 1854
+  },
+  {
+    "id": 116,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 1268
+  },
+  {
+    "id": 117,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 1088
+  },
+  {
+    "id": 118,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 896
+  },
+  {
+    "id": 119,
+    "name": "Air Conditioner",
+    "category": "Home Appliances",
+    "price": 1259
+  },
+  {
+    "id": 120,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 1016
+  },
+  {
+    "id": 121,
+    "name": "Puzzle Set",
+    "category": "Toys",
+    "price": 911
+  },
+  {
+    "id": 122,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 51
+  },
+  {
+    "id": 123,
+    "name": "Bookshelf",
+    "category": "Furniture",
+    "price": 308
+  },
+  {
+    "id": 124,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 773
+  },
+  {
+    "id": 125,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 684
+  },
+  {
+    "id": 126,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price": 1249
+  },
+  {
+    "id": 127,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 1636
+  },
+  {
+    "id": 128,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 1682
+  },
+  {
+    "id": 129,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 1657
+  },
+  {
+    "id": 130,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 491
+  },
+  {
+    "id": 131,
+    "name": "Puzzle Set",
+    "category": "Toys",
+    "price": 1518
+  },
+  {
+    "id": 132,
+    "name": "Sofa Bed",
+    "category": "Furniture",
+    "price": 1900
+  },
+  {
+    "id": 133,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 283
+  },
+  {
+    "id": 134,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 849
+  },
+  {
+    "id": 135,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 67
+  },
+  {
+    "id": 136,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 1516
+  },
+  {
+    "id": 137,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price": 614
+  },
+  {
+    "id": 138,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price": 947
+  },
+  {
+    "id": 139,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 2201
+  },
+  {
+    "id": 140,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 829
+  },
+  {
+    "id": 141,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 2988
+  },
+  {
+    "id": 142,
+    "name": "Dishwasher",
+    "category": "Home Appliances",
+    "price": 2829
+  },
+  {
+    "id": 143,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 1934
+  },
+  {
+    "id": 144,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 2765
+  },
+  {
+    "id": 145,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 1088
+  },
+  {
+    "id": 146,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 254
+  },
+  {
+    "id": 147,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 1841
+  },
+  {
+    "id": 148,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price": 1900
+  },
+  {
+    "id": 149,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 2760
+  },
+  {
+    "id": 150,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 2158
+  },
+  {
+    "id": 151,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 126
+  },
+  {
+    "id": 152,
+    "name": "Air Conditioner",
+    "category": "Home Appliances",
+    "price": 1395
+  },
+  {
+    "id": 153,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 510
+  },
+  {
+    "id": 154,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 80
+  },
+  {
+    "id": 155,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 2125
+  },
+  {
+    "id": 156,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 2162
+  },
+  {
+    "id": 157,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 1297
+  },
+  {
+    "id": 158,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 1955
+  },
+  {
+    "id": 159,
+    "name": "Air Conditioner",
+    "category": "Home Appliances",
+    "price": 1499
+  },
+  {
+    "id": 160,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 2980
+  },
+  {
+    "id": 161,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 2463
+  },
+  {
+    "id": 162,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 2589
+  },
+  {
+    "id": 163,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 1551
+  },
+  {
+    "id": 164,
+    "name": "Dishwasher",
+    "category": "Home Appliances",
+    "price": 660
+  },
+  {
+    "id": 165,
+    "name": "Water Purifier",
+    "category": "Home Appliances",
+    "price": 2840
+  },
+  {
+    "id": 166,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 1538
+  },
+  {
+    "id": 167,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 1601
+  },
+  {
+    "id": 168,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 1266
+  },
+  {
+    "id": 169,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 2304
+  },
+  {
+    "id": 170,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 1212
+  },
+  {
+    "id": 171,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 747
+  },
+  {
+    "id": 172,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 1037
+  },
+  {
+    "id": 173,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 237
+  },
+  {
+    "id": 174,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 781
+  },
+  {
+    "id": 175,
+    "name": "Building Blocks",
+    "category": "Toys",
+    "price": 1661
+  },
+  {
+    "id": 176,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 226
+  },
+  {
+    "id": 177,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 984
+  },
+  {
+    "id": 178,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 177
+  },
+  {
+    "id": 179,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 1945
+  },
+  {
+    "id": 180,
+    "name": "Sofa Bed",
+    "category": "Furniture",
+    "price": 273
+  },
+  {
+    "id": 181,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 1269
+  },
+  {
+    "id": 182,
+    "name": "Puzzle Set",
+    "category": "Toys",
+    "price": 1647
+  },
+  {
+    "id": 183,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 629
+  },
+  {
+    "id": 184,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 659
+  },
+  {
+    "id": 185,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 2671
+  },
+  {
+    "id": 186,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 587
+  },
+  {
+    "id": 187,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 145
+  },
+  {
+    "id": 188,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 2762
+  },
+  {
+    "id": 189,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 937
+  },
+  {
+    "id": 190,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 280
+  },
+  {
+    "id": 191,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 2670
+  },
+  {
+    "id": 192,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 2274
+  },
+  {
+    "id": 193,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 1294
+  },
+  {
+    "id": 194,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 1473
+  },
+  {
+    "id": 195,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 188
+  },
+  {
+    "id": 196,
+    "name": "Air Conditioner",
+    "category": "Home Appliances",
+    "price": 2667
+  },
+  {
+    "id": 197,
+    "name": "Water Purifier",
+    "category": "Home Appliances",
+    "price": 1015
+  },
+  {
+    "id": 198,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 231
+  },
+  {
+    "id": 199,
+    "name": "Puzzle Set",
+    "category": "Toys",
+    "price": 2001
+  },
+  {
+    "id": 200,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 297
+  },
+  {
+    "id": 201,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 917
+  },
+  {
+    "id": 202,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 2827
+  },
+  {
+    "id": 203,
+    "name": "Bookshelf",
+    "category": "Furniture",
+    "price": 2706
+  },
+  {
+    "id": 204,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 1397
+  },
+  {
+    "id": 205,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 2381
+  },
+  {
+    "id": 206,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 1838
+  },
+  {
+    "id": 207,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 1399
+  },
+  {
+    "id": 208,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 2288
+  },
+  {
+    "id": 209,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 166
+  },
+  {
+    "id": 210,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 2848
+  },
+  {
+    "id": 211,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 633
+  },
+  {
+    "id": 212,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 964
+  },
+  {
+    "id": 213,
+    "name": "Building Blocks",
+    "category": "Toys",
+    "price": 2431
+  },
+  {
+    "id": 214,
+    "name": "Building Blocks",
+    "category": "Toys",
+    "price": 1024
+  },
+  {
+    "id": 215,
+    "name": "Building Blocks",
+    "category": "Toys",
+    "price": 2793
+  },
+  {
+    "id": 216,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 1040
+  },
+  {
+    "id": 217,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 2090
+  },
+  {
+    "id": 218,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 1848
+  },
+  {
+    "id": 219,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 962
+  },
+  {
+    "id": 220,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 2787
+  },
+  {
+    "id": 221,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 281
+  },
+  {
+    "id": 222,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 2080
+  },
+  {
+    "id": 223,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price": 498
+  },
+  {
+    "id": 224,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 1221
+  },
+  {
+    "id": 225,
+    "name": "Building Blocks",
+    "category": "Toys",
+    "price": 596
+  },
+  {
+    "id": 226,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 787
+  },
+  {
+    "id": 227,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 2033
+  },
+  {
+    "id": 228,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 1825
+  },
+  {
+    "id": 229,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 1420
+  },
+  {
+    "id": 230,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 1361
+  },
+  {
+    "id": 231,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 2000
+  },
+  {
+    "id": 232,
+    "name": "Building Blocks",
+    "category": "Toys",
+    "price": 2510
+  },
+  {
+    "id": 233,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 1294
+  },
+  {
+    "id": 234,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 1342
+  },
+  {
+    "id": 235,
+    "name": "Bookshelf",
+    "category": "Furniture",
+    "price": 780
+  },
+  {
+    "id": 236,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 2107
+  },
+  {
+    "id": 237,
+    "name": "Building Blocks",
+    "category": "Toys",
+    "price": 288
+  },
+  {
+    "id": 238,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 2614
+  },
+  {
+    "id": 239,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 536
+  },
+  {
+    "id": 240,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 534
+  },
+  {
+    "id": 241,
+    "name": "Puzzle Set",
+    "category": "Toys",
+    "price": 1799
+  },
+  {
+    "id": 242,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 1462
+  },
+  {
+    "id": 243,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 1276
+  },
+  {
+    "id": 244,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 2607
+  },
+  {
+    "id": 245,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 2070
+  },
+  {
+    "id": 246,
+    "name": "Sofa Bed",
+    "category": "Furniture",
+    "price": 1592
+  },
+  {
+    "id": 247,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 1139
+  },
+  {
+    "id": 248,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 1151
+  },
+  {
+    "id": 249,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 641
+  },
+  {
+    "id": 250,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 2517
+  },
+  {
+    "id": 251,
+    "name": "Air Conditioner",
+    "category": "Home Appliances",
+    "price": 181
+  },
+  {
+    "id": 252,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 1142
+  },
+  {
+    "id": 253,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 55
+  },
+  {
+    "id": 254,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 193
+  },
+  {
+    "id": 255,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 1857
+  },
+  {
+    "id": 256,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 2916
+  },
+  {
+    "id": 257,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 653
+  },
+  {
+    "id": 258,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 123
+  },
+  {
+    "id": 259,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 2134
+  },
+  {
+    "id": 260,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price": 411
+  },
+  {
+    "id": 261,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 2610
+  },
+  {
+    "id": 262,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 2190
+  },
+  {
+    "id": 263,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 202
+  },
+  {
+    "id": 264,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 874
+  },
+  {
+    "id": 265,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 311
+  },
+  {
+    "id": 266,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 1538
+  },
+  {
+    "id": 267,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 1352
+  },
+  {
+    "id": 268,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 106
+  },
+  {
+    "id": 269,
+    "name": "Dishwasher",
+    "category": "Home Appliances",
+    "price": 481
+  },
+  {
+    "id": 270,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 2843
+  },
+  {
+    "id": 271,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 1414
+  },
+  {
+    "id": 272,
+    "name": "Dishwasher",
+    "category": "Home Appliances",
+    "price": 680
+  },
+  {
+    "id": 273,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 1661
+  },
+  {
+    "id": 274,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 2579
+  },
+  {
+    "id": 275,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 1327
+  },
+  {
+    "id": 276,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 1554
+  },
+  {
+    "id": 277,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 2976
+  },
+  {
+    "id": 278,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 1776
+  },
+  {
+    "id": 279,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 2311
+  },
+  {
+    "id": 280,
+    "name": "Sofa Bed",
+    "category": "Furniture",
+    "price": 2367
+  },
+  {
+    "id": 281,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 365
+  },
+  {
+    "id": 282,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 788
+  },
+  {
+    "id": 283,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 231
+  },
+  {
+    "id": 284,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 308
+  },
+  {
+    "id": 285,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 2060
+  },
+  {
+    "id": 286,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 1530
+  },
+  {
+    "id": 287,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 2467
+  },
+  {
+    "id": 288,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 652
+  },
+  {
+    "id": 289,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 1476
+  },
+  {
+    "id": 290,
+    "name": "Air Conditioner",
+    "category": "Home Appliances",
+    "price": 1115
+  },
+  {
+    "id": 291,
+    "name": "Water Purifier",
+    "category": "Home Appliances",
+    "price": 1606
+  },
+  {
+    "id": 292,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 2577
+  },
+  {
+    "id": 293,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 1602
+  },
+  {
+    "id": 294,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 732
+  },
+  {
+    "id": 295,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 2778
+  },
+  {
+    "id": 296,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 2341
+  },
+  {
+    "id": 297,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 882
+  },
+  {
+    "id": 298,
+    "name": "Sofa Bed",
+    "category": "Furniture",
+    "price": 1999
+  },
+  {
+    "id": 299,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 365
+  },
+  {
+    "id": 300,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 1773
+  },
+  {
+    "id": 301,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 2908
+  },
+  {
+    "id": 302,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 2583
+  },
+  {
+    "id": 303,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 2564
+  },
+  {
+    "id": 304,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 983
+  },
+  {
+    "id": 305,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 1559
+  },
+  {
+    "id": 306,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 2547
+  },
+  {
+    "id": 307,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 1814
+  },
+  {
+    "id": 308,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 2465
+  },
+  {
+    "id": 309,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 1332
+  },
+  {
+    "id": 310,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 1962
+  },
+  {
+    "id": 311,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 1267
+  },
+  {
+    "id": 312,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 973
+  },
+  {
+    "id": 313,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 1508
+  },
+  {
+    "id": 314,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 322
+  },
+  {
+    "id": 315,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 1497
+  },
+  {
+    "id": 316,
+    "name": "Puzzle Set",
+    "category": "Toys",
+    "price": 1865
+  },
+  {
+    "id": 317,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 1149
+  },
+  {
+    "id": 318,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 676
+  },
+  {
+    "id": 319,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 1043
+  },
+  {
+    "id": 320,
+    "name": "Air Conditioner",
+    "category": "Home Appliances",
+    "price": 1705
+  },
+  {
+    "id": 321,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 1963
+  },
+  {
+    "id": 322,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 971
+  },
+  {
+    "id": 323,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 1048
+  },
+  {
+    "id": 324,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 2490
+  },
+  {
+    "id": 325,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 211
+  },
+  {
+    "id": 326,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 2737
+  },
+  {
+    "id": 327,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 1788
+  },
+  {
+    "id": 328,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 265
+  },
+  {
+    "id": 329,
+    "name": "Bookshelf",
+    "category": "Furniture",
+    "price": 648
+  },
+  {
+    "id": 330,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 1821
+  },
+  {
+    "id": 331,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 2571
+  },
+  {
+    "id": 332,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 336
+  },
+  {
+    "id": 333,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 175
+  },
+  {
+    "id": 334,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 2435
+  },
+  {
+    "id": 335,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 515
+  },
+  {
+    "id": 336,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 71
+  },
+  {
+    "id": 337,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 878
+  },
+  {
+    "id": 338,
+    "name": "Water Purifier",
+    "category": "Home Appliances",
+    "price": 2058
+  },
+  {
+    "id": 339,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 797
+  },
+  {
+    "id": 340,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 2646
+  },
+  {
+    "id": 341,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 2995
+  },
+  {
+    "id": 342,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 2505
+  },
+  {
+    "id": 343,
+    "name": "Air Conditioner",
+    "category": "Home Appliances",
+    "price": 221
+  },
+  {
+    "id": 344,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 137
+  },
+  {
+    "id": 345,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price": 683
+  },
+  {
+    "id": 346,
+    "name": "Sofa Bed",
+    "category": "Furniture",
+    "price": 511
+  },
+  {
+    "id": 347,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 2803
+  },
+  {
+    "id": 348,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 2411
+  },
+  {
+    "id": 349,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 876
+  },
+  {
+    "id": 350,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 1536
+  },
+  {
+    "id": 351,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 392
+  },
+  {
+    "id": 352,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 309
+  },
+  {
+    "id": 353,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 2398
+  },
+  {
+    "id": 354,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 887
+  },
+  {
+    "id": 355,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 2806
+  },
+  {
+    "id": 356,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 2962
+  },
+  {
+    "id": 357,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 1831
+  },
+  {
+    "id": 358,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 2837
+  },
+  {
+    "id": 359,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 1214
+  },
+  {
+    "id": 360,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 595
+  },
+  {
+    "id": 361,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 1094
+  },
+  {
+    "id": 362,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 1154
+  },
+  {
+    "id": 363,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 2450
+  },
+  {
+    "id": 364,
+    "name": "Air Conditioner",
+    "category": "Home Appliances",
+    "price": 873
+  },
+  {
+    "id": 365,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 657
+  },
+  {
+    "id": 366,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 403
+  },
+  {
+    "id": 367,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 337
+  },
+  {
+    "id": 368,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 1615
+  },
+  {
+    "id": 369,
+    "name": "Water Purifier",
+    "category": "Home Appliances",
+    "price": 1011
+  },
+  {
+    "id": 370,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 2679
+  },
+  {
+    "id": 371,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price": 2256
+  },
+  {
+    "id": 372,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 2960
+  },
+  {
+    "id": 373,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 2375
+  },
+  {
+    "id": 374,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 2399
+  },
+  {
+    "id": 375,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 465
+  },
+  {
+    "id": 376,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 502
+  },
+  {
+    "id": 377,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 2248
+  },
+  {
+    "id": 378,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 2969
+  },
+  {
+    "id": 379,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 1065
+  },
+  {
+    "id": 380,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 958
+  },
+  {
+    "id": 381,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 982
+  },
+  {
+    "id": 382,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 2546
+  },
+  {
+    "id": 383,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 1983
+  },
+  {
+    "id": 384,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 1075
+  },
+  {
+    "id": 385,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 2181
+  },
+  {
+    "id": 386,
+    "name": "Water Purifier",
+    "category": "Home Appliances",
+    "price": 986
+  },
+  {
+    "id": 387,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 1877
+  },
+  {
+    "id": 388,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 1094
+  },
+  {
+    "id": 389,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 2909
+  },
+  {
+    "id": 390,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 566
+  },
+  {
+    "id": 391,
+    "name": "Air Conditioner",
+    "category": "Home Appliances",
+    "price": 1287
+  },
+  {
+    "id": 392,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 1258
+  },
+  {
+    "id": 393,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 1563
+  },
+  {
+    "id": 394,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 1346
+  },
+  {
+    "id": 395,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 2439
+  },
+  {
+    "id": 396,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 873
+  },
+  {
+    "id": 397,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 2220
+  },
+  {
+    "id": 398,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 2037
+  },
+  {
+    "id": 399,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 2836
+  },
+  {
+    "id": 400,
+    "name": "Air Conditioner",
+    "category": "Home Appliances",
+    "price": 499
+  },
+  {
+    "id": 401,
+    "name": "Building Blocks",
+    "category": "Toys",
+    "price": 1122
+  },
+  {
+    "id": 402,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 1088
+  },
+  {
+    "id": 403,
+    "name": "Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 308
+  },
+  {
+    "id": 404,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 2280
+  },
+  {
+    "id": 405,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 894
+  },
+  {
+    "id": 406,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 983
+  },
+  {
+    "id": 407,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 1953
+  },
+  {
+    "id": 408,
+    "name": "Building Blocks",
+    "category": "Toys",
+    "price": 2989
+  },
+  {
+    "id": 409,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 2681
+  },
+  {
+    "id": 410,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 612
+  },
+  {
+    "id": 411,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 2885
+  },
+  {
+    "id": 412,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 2112
+  },
+  {
+    "id": 413,
+    "name": "Dishwasher",
+    "category": "Home Appliances",
+    "price": 2965
+  },
+  {
+    "id": 414,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 1174
+  },
+  {
+    "id": 415,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 305
+  },
+  {
+    "id": 416,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 334
+  },
+  {
+    "id": 417,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 156
+  },
+  {
+    "id": 418,
+    "name": "Dishwasher",
+    "category": "Home Appliances",
+    "price": 1554
+  },
+  {
+    "id": 419,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 425
+  },
+  {
+    "id": 420,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 1954
+  },
+  {
+    "id": 421,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 1612
+  },
+  {
+    "id": 422,
+    "name": "Puzzle Set",
+    "category": "Toys",
+    "price": 184
+  },
+  {
+    "id": 423,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 1539
+  },
+  {
+    "id": 424,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 2669
+  },
+  {
+    "id": 425,
+    "name": "Air Conditioner",
+    "category": "Home Appliances",
+    "price": 2650
+  },
+  {
+    "id": 426,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 363
+  },
+  {
+    "id": 427,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 1125
+  },
+  {
+    "id": 428,
+    "name": "Dishwasher",
+    "category": "Home Appliances",
+    "price": 107
+  },
+  {
+    "id": 429,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 775
+  },
+  {
+    "id": 430,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 2266
+  },
+  {
+    "id": 431,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 2243
+  },
+  {
+    "id": 432,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 2606
+  },
+  {
+    "id": 433,
+    "name": "Water Purifier",
+    "category": "Home Appliances",
+    "price": 2509
+  },
+  {
+    "id": 434,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 2567
+  },
+  {
+    "id": 435,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 2966
+  },
+  {
+    "id": 436,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 2829
+  },
+  {
+    "id": 437,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 1517
+  },
+  {
+    "id": 438,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 678
+  },
+  {
+    "id": 439,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 635
+  },
+  {
+    "id": 440,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 1461
+  },
+  {
+    "id": 441,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 905
+  },
+  {
+    "id": 442,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 1448
+  },
+  {
+    "id": 443,
+    "name": "Action Figure",
+    "category": "Toys",
+    "price": 2586
+  },
+  {
+    "id": 444,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price": 154
+  },
+  {
+    "id": 445,
+    "name": "Bookshelf",
+    "category": "Furniture",
+    "price": 577
+  },
+  {
+    "id": 446,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 2473
+  },
+  {
+    "id": 447,
+    "name": "Dishwasher",
+    "category": "Home Appliances",
+    "price": 1098
+  },
+  {
+    "id": 448,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 2239
+  },
+  {
+    "id": 449,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 2363
+  },
+  {
+    "id": 450,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 194
+  },
+  {
+    "id": 451,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 869
+  },
+  {
+    "id": 452,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 2295
+  },
+  {
+    "id": 453,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 560
+  },
+  {
+    "id": 454,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 2035
+  },
+  {
+    "id": 455,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 2362
+  },
+  {
+    "id": 456,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 2699
+  },
+  {
+    "id": 457,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 2130
+  },
+  {
+    "id": 458,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 1432
+  },
+  {
+    "id": 459,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 1155
+  },
+  {
+    "id": 460,
+    "name": "Dishwasher",
+    "category": "Home Appliances",
+    "price": 84
+  },
+  {
+    "id": 461,
+    "name": "Washing Machine",
+    "category": "Home Appliances",
+    "price": 2329
+  },
+  {
+    "id": 462,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 1078
+  },
+  {
+    "id": 463,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 1668
+  },
+  {
+    "id": 464,
+    "name": "Bookshelf",
+    "category": "Furniture",
+    "price": 2873
+  },
+  {
+    "id": 465,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 2052
+  },
+  {
+    "id": 466,
+    "name": "Smartphone Max",
+    "category": "Electronics",
+    "price": 485
+  },
+  {
+    "id": 467,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 2578
+  },
+  {
+    "id": 468,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 1852
+  },
+  {
+    "id": 469,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 1928
+  },
+  {
+    "id": 470,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 1232
+  },
+  {
+    "id": 471,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 951
+  },
+  {
+    "id": 472,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 1158
+  },
+  {
+    "id": 473,
+    "name": "Microwave Oven",
+    "category": "Home Appliances",
+    "price": 555
+  },
+  {
+    "id": 474,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 692
+  },
+  {
+    "id": 475,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 2545
+  },
+  {
+    "id": 476,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 2136
+  },
+  {
+    "id": 477,
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 664
+  },
+  {
+    "id": 478,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 538
+  },
+  {
+    "id": 479,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 1521
+  },
+  {
+    "id": 480,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 211
+  },
+  {
+    "id": 481,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 269
+  },
+  {
+    "id": 482,
+    "name": "Water Purifier",
+    "category": "Home Appliances",
+    "price": 2272
+  },
+  {
+    "id": 483,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 286
+  },
+  {
+    "id": 484,
+    "name": "Plush Toy",
+    "category": "Toys",
+    "price": 1786
+  },
+  {
+    "id": 485,
+    "name": "Ultra-Wide Monitor",
+    "category": "Electronics",
+    "price": 1038
+  },
+  {
+    "id": 486,
+    "name": "Remote Control Car",
+    "category": "Toys",
+    "price": 2003
+  },
+  {
+    "id": 487,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 2780
+  },
+  {
+    "id": 488,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 2618
+  },
+  {
+    "id": 489,
+    "name": "Refrigerator",
+    "category": "Home Appliances",
+    "price": 500
+  },
+  {
+    "id": 490,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price": 2605
+  },
+  {
+    "id": 491,
+    "name": "Water Purifier",
+    "category": "Home Appliances",
+    "price": 2295
+  },
+  {
+    "id": 492,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 2444
+  },
+  {
+    "id": 493,
+    "name": "Sofa Bed",
+    "category": "Furniture",
+    "price": 2930
+  },
+  {
+    "id": 494,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 514
+  },
+  {
+    "id": 495,
+    "name": "Tablet Air",
+    "category": "Electronics",
+    "price": 1176
+  },
+  {
+    "id": 496,
+    "name": "Dollhouse",
+    "category": "Toys",
+    "price": 1195
+  },
+  {
+    "id": 497,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 1669
+  },
+  {
+    "id": 498,
+    "name": "Board Game",
+    "category": "Toys",
+    "price": 2027
+  },
+  {
+    "id": 499,
+    "name": "Dining Table",
+    "category": "Furniture",
+    "price": 1351
+  },
+  {
+    "id": 500,
+    "name": "Dishwasher",
+    "category": "Home Appliances",
+    "price": 1569
+  }
 ]
