@@ -5,9 +5,9 @@ const router = express.Router();
 // GET /api/items
 router.get("/", async (req, res, next) => {
   try {
-    const data = readData();
-    const { limit, q } = req.query;
-    let results = await data;
+    const data = await readData();
+    const { q = "", limit = 10, offset = 0 } = req.query;
+    let results = data;
 
     if (q) {
       // Simple substring search (sub‑optimal)
@@ -16,11 +16,13 @@ router.get("/", async (req, res, next) => {
       );
     }
 
-    if (limit) {
-      results = results.slice(0, parseInt(limit));
-    }
+    const total = results.length;
+    const paginated = results.slice(
+      parseInt(offset),
+      parseInt(offset) + parseInt(limit)
+    );
 
-    res.json(results);
+    res.json({ items: paginated, total });
   } catch (err) {
     next(err);
   }
@@ -32,9 +34,7 @@ router.get("/:id", async (req, res, next) => {
     const data = await readData();
     const item = data.find((i) => i.id === parseInt(req.params.id));
     if (!item) {
-      const err = new Error("Item not found");
-      err.status = 404;
-      throw err;
+      return res.status(404).json({ error: "Item not found" });
     }
     res.json(item);
   } catch (err) {
