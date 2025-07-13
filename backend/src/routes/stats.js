@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { readData } = require("../utils/dataUtils");
+const { mean } = require("../utils/stats");
 
 // GET /api/stats
 router.get("/", async (req, res, next) => {
@@ -9,8 +10,7 @@ router.get("/", async (req, res, next) => {
 
     const stats = {
       total: items.length,
-      averagePrice:
-        items.reduce((acc, cur) => acc + cur.price, 0) / items.length,
+      averagePrice: mean(items, "price"),
     };
 
     res.json(stats);
