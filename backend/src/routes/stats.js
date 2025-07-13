@@ -1,23 +1,35 @@
-const express = require('express');
-const fs = require('fs');
-const path = require('path');
+const express = require("express");
 const router = express.Router();
-const DATA_PATH = path.join(__dirname, '../../data/items.json');
+const { readData, getDataLastModifiedTime } = require("../utils/dataUtils");
+const { mean } = require("../utils/stats");
+
+// SET cachedStats and lastModified to null - if null should compute stats
+// NOTE: This solution reduced time by 90%. Computing stats reuqire 6.997ms - Cached results where vailable in .711ms
+ 
+let cachedStats = null;
+let lastModified = null;
 
 // GET /api/stats
-router.get('/', (req, res, next) => {
-  fs.readFile(DATA_PATH, (err, raw) => {
-    if (err) return next(err);
+router.get("/", async (req, res, next) => {
+  try {
+    const dataModifiedTime = await getDataLastModifiedTime();
 
-    const items = JSON.parse(raw);
-    // Intentional heavy CPU calculation
-    const stats = {
-      total: items.length,
-      averagePrice: items.reduce((acc, cur) => acc + cur.price, 0) / items.length
-    };
+    if (!cachedStats || dataModifiedTime !== lastModified) {
+      console.log("I'm computing stats...");
+      const items = await readData();
+      cachedStats = getStats(items);
+      lastModified = dataModifiedTime;
+    }
 
-    res.json(stats);
-  });
+    res.json(cachedStats);
+  } catch (error) {
+    next(error);
+  }
 });
 
 module.exports = router;
+
+const getStats = (items) => ({
+  total: items.length,
+  averagePrice: mean(items, "price"),
+});
