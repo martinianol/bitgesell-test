@@ -8,11 +8,12 @@ export function DataProvider({ children }) {
 
   const fetchItems = useCallback(
     async ({ q = "", limit = 10, offset = 0 } = {}) => {
+      // Encode query param to safely handle spaces and special characters in URLs (e.g. "Desk & Chair")
       const res = await fetch(
         `${API_BASE_URL}?q=${encodeURIComponent(
           q
         )}&limit=${limit}&offset=${offset}`
-      ); // Intentional bug: backend ignores limit
+      );
       const json = await res.json();
       return json;
     },
