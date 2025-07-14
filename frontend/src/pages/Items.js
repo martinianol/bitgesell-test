@@ -1,30 +1,41 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
+import styled from "styled-components";
 import { useData } from "../state/DataContext";
-import { Link } from "react-router-dom";
 import { FixedSizeList as List } from "react-window";
+import SearchInput from "../components/SearchInput";
+import Pagination from "../components/Pagination";
+import ListItem from "../components/ListItem";
+import ListLoader from "../components/ListLoader";
+
+const LIMIT = 100;
 
 function Items() {
   const { items, fetchItems, setItems, setTotal, total } = useData();
   const [page, setPage] = useState(0);
   const [search, setSearch] = useState("");
-  const limit = 100;
+  // Better to do it with react-query...
+  const [isLoading, setIsLoading] = useState(false);
+  const totalPages = useMemo(() => Math.ceil(total / LIMIT), [total]);
 
   useEffect(() => {
     let active = true;
 
     const loadItems = async () => {
+      setIsLoading(true);
       try {
         const { items: fetchedItems, total } = await fetchItems({
           q: search,
-          limit,
-          offset: page * limit,
+          limit: LIMIT,
+          offset: page * LIMIT,
         });
         setItems(fetchedItems);
         setTotal(total);
+        setIsLoading(false);
       } catch (error) {
         if (active) {
           console.error(error);
         }
+        setIsLoading(false);
       }
     };
 
@@ -35,54 +46,45 @@ function Items() {
     };
   }, [fetchItems, page, search]);
 
-  const totalPages = Math.ceil(total / limit);
+  const handleSearchChange = (e) => {
+    setSearch(e.target.value);
+    setPage(0);
+  };
 
-  const Row = ({ index, style }) => {
-    const item = items[index];
-    return (
-      <div style={style} key={item.id}>
-        <Link to={`/items/${item.id}`}>{item.name}</Link>
-      </div>
-    );
+  const handlePagination = (direction) => {
+    setPage((prev) => prev + direction);
   };
 
   return (
-    <div>
-      <input
-        type="text"
-        value={search}
-        placeholder="Search items..."
-        onChange={(e) => {
-          setSearch(e.target.value);
-          setPage(0);
-        }}
-      />
-
-      {!items.length ? (
-        <p>Loading...</p>
+    <ItemsContainer>
+      <SearchInput searchValue={search} onChange={handleSearchChange} />
+      {isLoading ? (
+        <ListLoader />
       ) : (
-        <List height={600} itemCount={items.length} itemSize={40} width="100%">
-          {Row}
+        <List
+          height={600}
+          itemCount={items.length}
+          itemSize={40}
+          width="100%"
+          itemData={items}
+        >
+          {ListItem}
         </List>
       )}
 
-      <div>
-        <button disabled={page === 0} onClick={() => setPage((p) => p - 1)}>
-          Prev
-        </button>
-        <span>
-          {" "}
-          Page {page + 1} of {totalPages}{" "}
-        </span>
-        <button
-          disabled={page + 1 >= totalPages}
-          onClick={() => setPage((p) => p + 1)}
-        >
-          Next
-        </button>
-      </div>
-    </div>
+      <Pagination
+        page={page}
+        totalPages={totalPages}
+        onChangePage={handlePagination}
+      />
+    </ItemsContainer>
   );
 }
 
 export default Items;
+
+const ItemsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+`;
